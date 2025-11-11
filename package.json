@@ -1,12 +1,15 @@
 {
     "type": "module",
     "name": "@scaratech/mittens-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "CLI for Mittens",
     "main": "dist/index.js",
     "bin": {
         "mittens": "dist/index.js"
     },
+    "files": [
+        "dist/src"
+    ],
     "scripts": {
         "clean": "rimraf dist",
         "build": "pnpm clean && tsc -p tsconfig.json"
