@@ -1,7 +1,7 @@
 {
     "type": "module",
     "name": "@scaratech/mittens-cli",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "CLI for Mittens",
     "main": "dist/index.js",
     "bin": {
@@ -23,7 +23,7 @@
         "typescript": "^5.9.3"
     },
     "dependencies": {
-        "@scaratech/mittens": "^1.0.6",
+        "@scaratech/mittens": "^1.0.7",
         "commander": "^11.0.0"
     }
 }
