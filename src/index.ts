@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import type { Config } from '@scaratech/mittens';
 import { Mittens, generateConfig } from '@scaratech/mittens';
 import { Command } from 'commander';
