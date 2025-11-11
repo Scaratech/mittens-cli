@@ -1,0 +1,26 @@
+{
+    "type": "module",
+    "name": "@scaratech/mittens-cli",
+    "version": "1.0.0",
+    "description": "CLI for Mittens",
+    "main": "dist/index.js",
+    "bin": {
+        "mittens": "dist/index.js"
+    },
+    "scripts": {
+        "clean": "rimraf dist",
+        "build": "pnpm clean && tsc -p tsconfig.json"
+    },
+    "author": "scaratech",
+    "license": "AGPL-3.0-only",
+    "packageManager": "pnpm@10.20.0",
+    "devDependencies": {
+        "@types/node": "^24.10.0",
+        "rimraf": "^6.1.0",
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "@scaratech/mittens": "^1.0.3",
+        "commander": "^11.0.0"
+    }
+}
